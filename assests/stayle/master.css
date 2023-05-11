@@ -1,0 +1,461 @@
+body {
+  background-color: #2c2d30;
+}
+
+main div {
+  max-width: 1536px !important;
+}
+main div div header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #2c2d30;
+  height: 70px;
+}
+main div div header div nav > ul {
+  list-style: none;
+  display: flex;
+}
+main div div header div nav > ul > li {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+main div div header div nav > ul > li > a {
+  color: white;
+  text-decoration: none;
+  font-family: "Merriweather", serif;
+  font-size: 14px;
+  text-transform: capitalize;
+}
+main div .dff {
+  height: 100px;
+  background-color: #ddae3f;
+  width: 1px !important;
+}
+main div .Network {
+  position: fixed;
+  writing-mode: vertical-lr;
+  text-orientation: mixed;
+  color: white;
+}
+main div .logo {
+  align-items: center;
+  text-align: center;
+  font-family: "Italianno", cursive;
+  color: white;
+  font-size: 33px;
+}
+main div .hassan {
+  color: #ddae3f;
+}
+main div .cb {
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+main div .text-img {
+  height: 100vh;
+  background-image: url(../img/home-bg-3.jpg);
+  background-size: cover;
+  background-position: center center;
+  padding: 0;
+  width: 1500px !important;
+}
+main div .presentation {
+  justify-content: center;
+  align-items: center;
+  margin-top: 80px;
+  padding-top: 200px;
+}
+main div .presentation > div {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  display: flex;
+}
+main div .presentation > div h2 {
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-align: center;
+  overflow: hidden;
+  font-size: 75px;
+  border-right: 7px solid #ddae3f;
+  animation: id steps(13) alternate infinite 3s, op linear 0.4s infinite alternate;
+  white-space: nowrap;
+  width: 0px;
+  margin-left: 100px;
+}
+@media screen and (max-width: 767px) {
+  main div .presentation > div h2 {
+    font-size: 50px !important;
+    transform: translateX(-50px);
+  }
+}
+@keyframes id {
+  to {
+    width: 570px;
+  }
+}
+@keyframes op {
+  to {
+    border-right: 7px solid #ddae3f;
+  }
+}
+main div .name {
+  font-family: "Italianno", cursive;
+  text-align: center;
+  justify-content: center;
+  font-size: 130px;
+  color: white;
+}
+@media screen and (max-width: 767px) {
+  main div .name {
+    font-size: 60px !important;
+  }
+}
+main div .bi-twitter,
+main div .bi-instagram,
+main div .bi-linkedin,
+main div .bi-github {
+  color: #ddae3f;
+  font-size: 20px;
+  margin-top: 15px;
+}
+main div .about-me {
+  margin-top: 150px;
+}
+main div .about-me div figure img {
+  margin-left: 20px;
+  border-radius: 100px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+}
+main div .about-me div section {
+  text-align: center;
+}
+main div .about-me div section div h2 {
+  font-family: "Merriweather", serif;
+  color: #ddae3f;
+  font-size: 60px;
+}
+main div .about-me div section div h3 {
+  font-family: "Merriweather", serif;
+  margin-top: 30px;
+  color: white;
+}
+main div .about-me div section div div {
+  margin: 30px -10px;
+  margin-left: 15px;
+  display: flex;
+}
+main div .about-me div section div div div {
+  overflow: hidden;
+  display: flex;
+}
+main div .about-me div section div div div ul {
+  line-height: 2;
+  list-style: none;
+}
+main div .about-me div section div div div ul li p {
+  overflow: hidden;
+  font-family: "Merriweather", serif;
+  color: white;
+  font-size: 25px;
+}
+main div .about-me div section div div div ul li p span {
+  font-family: "Merriweather", serif;
+  color: #d2d2d2;
+}
+main div .about-me div section div div div {
+  overflow: hidden;
+  display: flex;
+}
+main div .about-me div section div div div ul {
+  overflow: hidden;
+  line-height: 2;
+  list-style: none;
+}
+main div .about-me div section div div div ul li p {
+  overflow: hidden;
+  font-family: "Merriweather", serif;
+  color: white;
+  font-size: 25px;
+}
+main div .about-me div section div div div ul li p span {
+  font-family: "Merriweather", serif;
+  color: #d2d2d2;
+}
+main div .about-me div section .work {
+  font-family: "Merriweather", serif;
+}
+main div .about-me div section .work > button {
+  margin-left: 38px;
+  background-color: #ddae3f;
+  height: 70px;
+  border-radius: 80px;
+}
+main div .about-me div section .work > button > a {
+  font-size: 25px;
+  text-decoration: none;
+  color: black;
+}
+main div .dri-1,
+main div .dri-2,
+main div .dri-3,
+main div .dri-4,
+main div .dri-5,
+main div .dri-6 {
+  color: #ddae3f;
+  font-family: "Merriweather", serif;
+  font-size: 30px;
+}
+main div .Percent-1,
+main div .Percent-2,
+main div .Percent-3,
+main div .Percent-4,
+main div .Percent-5,
+main div .Percent-6 {
+  height: 30px;
+}
+main div .my-skills {
+  margin-top: 70px;
+}
+main div .my-skills > div > span {
+  font-family: "Merriweather", serif;
+  color: #f5f3f0;
+  font-size: 25px;
+}
+main div .my-skills > div h2 {
+  font-family: "Merriweather", serif;
+  color: #ddae3f;
+  font-size: 60px;
+  margin-top: 20px;
+}
+main div .my-skills .measure {
+  margin-top: 50px;
+  margin-bottom: 150px;
+  display: flex;
+  height: 350px;
+}
+main div .services .row > div {
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main div .services .row > div > div {
+  height: 90%;
+  border-radius: 20px;
+  color: white;
+}
+main .services > p {
+  color: #d2d2d2;
+  font-size: 30px;
+  margin-left: 40px;
+}
+main .services > h2 {
+  color: #ddae3f;
+  font-size: 80px;
+  margin-left: 40px;
+  margin-bottom: 70px;
+}
+main .servic {
+  justify-content: center;
+  text-align: center;
+}
+main .servic_1,
+main .servic_2,
+main .servic_3,
+main .servic_4,
+main .servic_5,
+main .servic_6 {
+  font-family: "Merriweather", serif;
+  background-color: rgba(52, 53, 57, 0.9);
+}
+main .servic_1 > div,
+main .servic_2 > div,
+main .servic_3 > div,
+main .servic_4 > div,
+main .servic_5 > div,
+main .servic_6 > div {
+  padding: 15px;
+}
+main .servic_1 > div > h3,
+main .servic_2 > div > h3,
+main .servic_3 > div > h3,
+main .servic_4 > div > h3,
+main .servic_5 > div > h3,
+main .servic_6 > div > h3 {
+  color: #d2d2d2;
+  font-size: 22px;
+  font-family: "Merriweather", serif;
+}
+main .servic_1 > div > p,
+main .servic_2 > div > p,
+main .servic_3 > div > p,
+main .servic_4 > div > p,
+main .servic_5 > div > p,
+main .servic_6 > div > p {
+  color: #d2d2d2;
+  font-size: 18px;
+  font-family: "Merriweather", serif;
+}
+main .bi-phone,
+main .bi-heart,
+main .bi-globe2,
+main .bi-sliders,
+main .bi-bookmark-check,
+main .bi-brush {
+  color: #ddae3f;
+}
+main .linl,
+main .lina {
+  color: #ddae3f;
+  background-color: #d2d2d2;
+}
+main .linl {
+  font-size: 100px;
+}
+main .portfolio {
+  justify-content: center;
+  align-items: center;
+}
+main .portfolio > p {
+  color: #d2d2d2;
+  font-size: 30px;
+  margin-left: 40px;
+}
+main .portfolio > h2 {
+  color: #ddae3f;
+  font-size: 80px;
+  margin-left: 40px;
+  margin-bottom: 70px;
+}
+main .portfolio .img-but {
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+  background-color: #ddae3f;
+  border-radius: 50px;
+}
+main .portfolio .img-but > a {
+  text-decoration: none;
+  font-size: 40px;
+  color: #d2d2d2;
+}
+main .portfolio .img-bu-1 {
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+  background-color: #ddae3f;
+  border-radius: 50px;
+}
+main .portfolio .img-bu-1 > a {
+  text-decoration: none;
+  font-size: 40px;
+  color: #d2d2d2;
+}
+main .portfo_1 > figure,
+main .portfo_2 > figure,
+main .portfo_3 > figure,
+main .portfo_4 > figure,
+main .portfo_5 > figure,
+main .portfo_6 > figure {
+  overflow: hidden;
+}
+main .portfo_1 > figure > img,
+main .portfo_2 > figure > img,
+main .portfo_3 > figure > img,
+main .portfo_4 > figure > img,
+main .portfo_5 > figure > img,
+main .portfo_6 > figure > img {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+main .imgBox {
+  background-color: #ddae3f;
+  border-radius: 10px;
+  margin: 100px auto;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+}
+main .imgBox > figcaption {
+  width: 300px;
+  height: 0;
+  background-color: rgba(221, 174, 63, 0.5764705882);
+  position: absolute;
+  bottom: 50px;
+  opacity: 0;
+  left: 50px;
+  transition: 1s;
+  visibility: hidden;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+main .imgBox > figcaption > a {
+  font-size: 70px;
+  text-decoration: none;
+  margin-left: 30px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+main .imgBox > figcaption > a > i {
+  font-size: 50px;
+}
+main .imgBox > figcaption > h3 {
+  font-size: 40px;
+  color: #d2d2d2;
+}
+main .imgBox:hover > figcaption {
+  height: 200px;
+  opacity: 1;
+  visibility: visible;
+  justify-content: center;
+  align-items: center;
+}
+main .bi-telephone,
+main .bi-geo-alt,
+main .bi-send {
+  color: #ddae3f;
+}
+main .form-control {
+  background-color: rgba(52, 53, 57, 0.9);
+  border-radius: 50px;
+}
+main .btn-primary {
+  height: 100px;
+  width: 200px;
+  border-radius: 60px;
+  background-color: #ddae3f;
+  font-family: "Merriweather", serif;
+  font-size: 40px;
+  margin-top: 40px;
+}
+main .contact {
+  margin-top: 200px;
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 70px;
+}
+main .contact > div > form {
+  margin-top: 70px;
+}
+main .contact > div > div > h3 {
+  color: #d2d2d2;
+  font-size: 30px;
+  font-family: "Merriweather", serif;
+}
+main .contact > div > div span {
+  color: #d2d2d2;
+  font-family: "Merriweather", serif;
+  font-size: 20px;
+}/*# sourceMappingURL=master.css.map */
