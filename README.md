@@ -6,14 +6,14 @@
 
 - [Demo Project](https://hassaneskandari-developer.github.io/personal/)
 
-- Developed by pouria farahani
+- Developed by Hassan Eskandari
 
 - Created - 2023-5-11
 
-- Technologies Used - Html , css , js , React.js
+- Technologies Used - Html , css , bootStrap, 
 
 - Hooks Used : useState 
 
 - Role - Frontend
 
-- How to reach me : with my [instagram](https://www.instagram.com/pouria_farahani_developer) and [linkedin](https://www.linkedin.com/in/pouria-farahani-developer)
+- How to reach me : with my [instagram]() and [linkedin](https://www.linkedin.com/in/hassan-eskandari-02aa58230?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app)
